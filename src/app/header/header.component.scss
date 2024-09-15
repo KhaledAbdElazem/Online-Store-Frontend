@@ -1,0 +1,33 @@
+.custom-navbar {
+    background-color: #ffffff;
+    .navbar-brand {
+      font-weight: bold;
+      color: #000;
+    }
+  
+    .nav-link {
+      color: #000;
+      &:hover {
+        color: #007bff;
+      }
+    }
+  
+    .dropdown-menu {
+      .dropdown-item {
+        color: #000;
+        &:hover {
+          background-color: #f8f9fa;
+        }
+      }
+    }
+  
+    .badge {
+      font-size: 0.75rem;
+    }
+  
+    .fa-shopping-cart, .fa-heart {
+      font-size: 1.2rem;
+      color: #000;
+    }
+  }
+  
